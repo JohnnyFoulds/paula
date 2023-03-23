@@ -23434,3 +23434,324 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-03-23 23:02:49,997:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   estimator.fit(X[:, features], y, **fit_params)
 
+2023-03-23 23:02:58,463:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:06,794:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:15,055:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:23,161:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:31,272:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:39,235:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:47,826:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:03:56,031:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:03,902:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:12,426:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:20,621:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:28,247:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:35,761:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:43,204:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:50,583:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:04:57,840:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:05,114:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:12,288:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:19,359:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:26,414:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:33,312:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:40,193:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:46,913:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:05:53,609:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:00,173:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:06,671:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:13,179:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:19,537:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:25,876:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:32,097:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:38,275:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:44,413:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:50,445:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:06:56,423:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:02,318:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:08,149:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:13,853:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:19,588:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:25,162:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:30,653:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:36,094:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:41,487:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:46,755:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:51,930:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:07:57,076:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:02,106:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:07,122:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:12,010:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:16,882:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:21,645:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:26,366:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:30,971:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:35,542:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:39,988:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:44,447:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:48,755:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:53,045:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:08:57,203:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:01,296:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:05,316:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:09,294:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:13,198:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:16,982:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:20,688:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:24,408:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:27,986:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:31,487:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:34,919:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:38,339:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:41,631:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:44,883:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:48,072:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:51,137:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:54,138:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:57,082:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:09:59,932:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:02,711:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:05,519:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:08,214:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:10,773:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:13,229:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:15,631:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:18,000:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:20,253:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:22,437:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:24,541:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:26,617:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:28,601:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:30,482:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:32,281:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:33,996:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:35,633:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:37,281:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:38,769:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:40,184:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:41,517:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:42,789:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:44,030:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:45,201:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:46,336:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:47,357:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:48,361:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:49,289:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:50,142:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:50,975:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:51,679:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:10:52,323:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:326: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  self.estimator_.fit(X[:, features], y, **fit_params)
+
