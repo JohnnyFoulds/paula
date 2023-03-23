@@ -21971,3 +21971,1466 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-03-23 21:31:49,935:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/base.py:413: UserWarning: X has feature names, but ExtraTreeRegressor was fitted without feature names
   warnings.warn(
 
+2023-03-23 21:56:18,830:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-23 21:56:18,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:56:18,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:56:18,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:56:18,932:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:56:18,942:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-23 21:56:18,942:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-23 21:56:18,944:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-23 21:56:19,441:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-03-23 21:56:19,590:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-23 21:56:23,090:INFO:PyCaret RegressionExperiment
+2023-03-23 21:56:23,090:INFO:Logging name: reg-default-name
+2023-03-23 21:56:23,090:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-03-23 21:56:23,090:INFO:version 3.0.0
+2023-03-23 21:56:23,090:INFO:Initializing setup()
+2023-03-23 21:56:23,090:INFO:self.USI: 17dd
+2023-03-23 21:56:23,090:INFO:self._variable_keys: {'n_jobs_param', 'gpu_param', 'data', 'logging_param', 'y_train', 'target_param', 'y_test', 'html_param', 'USI', '_ml_usecase', 'transform_target_param', 'fold_groups_param', 'idx', 'memory', 'fold_shuffle_param', 'gpu_n_jobs_param', 'X_test', 'fold_generator', 'exp_id', 'pipeline', 'exp_name_log', 'log_plots_param', 'X_train', 'seed', 'y', 'X', '_available_plots'}
+2023-03-23 21:56:23,090:INFO:Checking environment
+2023-03-23 21:56:23,090:INFO:python_version: 3.8.16
+2023-03-23 21:56:23,090:INFO:python_build: ('default', 'Mar  1 2023 21:18:45')
+2023-03-23 21:56:23,090:INFO:machine: arm64
+2023-03-23 21:56:23,090:INFO:platform: macOS-13.0.1-arm64-arm-64bit
+2023-03-23 21:56:23,090:INFO:Memory: svmem(total=8589934592, available=2014724096, percent=76.5, used=3363913728, free=57147392, active=1973829632, inactive=1846640640, wired=1390084096)
+2023-03-23 21:56:23,090:INFO:Physical Core: 8
+2023-03-23 21:56:23,090:INFO:Logical Core: 8
+2023-03-23 21:56:23,090:INFO:Checking libraries
+2023-03-23 21:56:23,090:INFO:System:
+2023-03-23 21:56:23,090:INFO:    python: 3.8.16 (default, Mar  1 2023, 21:18:45)  [Clang 14.0.6 ]
+2023-03-23 21:56:23,090:INFO:executable: /opt/homebrew/anaconda3/envs/paula/bin/python
+2023-03-23 21:56:23,090:INFO:   machine: macOS-13.0.1-arm64-arm-64bit
+2023-03-23 21:56:23,090:INFO:PyCaret required dependencies:
+2023-03-23 21:56:23,090:INFO:                 pip: 23.0.1
+2023-03-23 21:56:23,090:INFO:          setuptools: 65.6.3
+2023-03-23 21:56:23,090:INFO:             pycaret: 3.0.0
+2023-03-23 21:56:23,090:INFO:             IPython: 8.11.0
+2023-03-23 21:56:23,090:INFO:          ipywidgets: 8.0.5
+2023-03-23 21:56:23,090:INFO:                tqdm: 4.65.0
+2023-03-23 21:56:23,090:INFO:               numpy: 1.23.5
+2023-03-23 21:56:23,090:INFO:              pandas: 1.5.3
+2023-03-23 21:56:23,090:INFO:              jinja2: 3.1.2
+2023-03-23 21:56:23,090:INFO:               scipy: 1.10.0
+2023-03-23 21:56:23,090:INFO:              joblib: 1.1.1
+2023-03-23 21:56:23,091:INFO:             sklearn: 1.2.1
+2023-03-23 21:56:23,091:INFO:                pyod: 1.0.9
+2023-03-23 21:56:23,091:INFO:            imblearn: 0.10.1
+2023-03-23 21:56:23,091:INFO:   category_encoders: 2.6.0
+2023-03-23 21:56:23,091:INFO:            lightgbm: 3.3.5
+2023-03-23 21:56:23,091:INFO:               numba: 0.56.4
+2023-03-23 21:56:23,091:INFO:            requests: 2.28.1
+2023-03-23 21:56:23,091:INFO:          matplotlib: 3.7.1
+2023-03-23 21:56:23,091:INFO:          scikitplot: 0.3.7
+2023-03-23 21:56:23,091:INFO:         yellowbrick: 1.5
+2023-03-23 21:56:23,091:INFO:              plotly: 5.13.1
+2023-03-23 21:56:23,091:INFO:             kaleido: 0.2.1
+2023-03-23 21:56:23,091:INFO:         statsmodels: 0.13.5
+2023-03-23 21:56:23,091:INFO:              sktime: 0.16.1
+2023-03-23 21:56:23,091:INFO:               tbats: 1.1.2
+2023-03-23 21:56:23,091:INFO:            pmdarima: 2.0.3
+2023-03-23 21:56:23,091:INFO:              psutil: 5.9.4
+2023-03-23 21:56:23,091:INFO:PyCaret optional dependencies:
+2023-03-23 21:56:23,097:INFO:                shap: Not installed
+2023-03-23 21:56:23,097:INFO:           interpret: Not installed
+2023-03-23 21:56:23,097:INFO:                umap: Not installed
+2023-03-23 21:56:23,097:INFO:    pandas_profiling: Not installed
+2023-03-23 21:56:23,097:INFO:  explainerdashboard: Not installed
+2023-03-23 21:56:23,097:INFO:             autoviz: Not installed
+2023-03-23 21:56:23,097:INFO:           fairlearn: Not installed
+2023-03-23 21:56:23,097:INFO:             xgboost: Not installed
+2023-03-23 21:56:23,097:INFO:            catboost: Not installed
+2023-03-23 21:56:23,097:INFO:              kmodes: Not installed
+2023-03-23 21:56:23,097:INFO:             mlxtend: Not installed
+2023-03-23 21:56:23,097:INFO:       statsforecast: Not installed
+2023-03-23 21:56:23,097:INFO:        tune_sklearn: Not installed
+2023-03-23 21:56:23,097:INFO:                 ray: Not installed
+2023-03-23 21:56:23,097:INFO:            hyperopt: Not installed
+2023-03-23 21:56:23,097:INFO:              optuna: Not installed
+2023-03-23 21:56:23,097:INFO:               skopt: Not installed
+2023-03-23 21:56:23,097:INFO:              mlflow: Not installed
+2023-03-23 21:56:23,097:INFO:              gradio: Not installed
+2023-03-23 21:56:23,097:INFO:             fastapi: Not installed
+2023-03-23 21:56:23,097:INFO:             uvicorn: Not installed
+2023-03-23 21:56:23,097:INFO:              m2cgen: Not installed
+2023-03-23 21:56:23,097:INFO:           evidently: Not installed
+2023-03-23 21:56:23,097:INFO:               fugue: Not installed
+2023-03-23 21:56:23,097:INFO:           streamlit: Not installed
+2023-03-23 21:56:23,097:INFO:             prophet: Not installed
+2023-03-23 21:56:23,097:INFO:None
+2023-03-23 21:56:23,097:INFO:Set up data.
+2023-03-23 21:56:23,137:INFO:Set up train/test split.
+2023-03-23 21:56:23,137:INFO:Set up data.
+2023-03-23 21:56:23,176:INFO:Set up index.
+2023-03-23 21:56:23,177:INFO:Set up folding strategy.
+2023-03-23 21:56:23,177:INFO:Assigning column types.
+2023-03-23 21:56:23,209:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-03-23 21:56:23,209:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,211:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,213:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,248:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,267:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,267:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,285:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,285:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,287:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,289:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,318:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,336:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,336:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,336:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,336:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2023-03-23 21:56:23,338:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,340:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,369:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,387:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,387:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,387:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,389:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,391:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,419:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,437:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,437:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,437:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,437:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2023-03-23 21:56:23,440:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,469:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,486:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,486:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,486:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,490:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,519:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,537:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,537:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,537:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,537:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2023-03-23 21:56:23,573:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,592:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,592:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,592:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,631:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,650:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,650:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,650:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,650:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-03-23 21:56:23,687:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,706:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,707:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,743:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:56:23,762:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,762:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,762:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2023-03-23 21:56:23,827:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,827:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,880:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,880:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:23,882:INFO:Preparing preprocessing pipeline...
+2023-03-23 21:56:23,883:INFO:Set up simple imputation.
+2023-03-23 21:56:23,930:INFO:Finished creating preprocessing pipeline.
+2023-03-23 21:56:23,934:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/6p/mfdk5t710cq33z7twx0hrc400000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Madrid_wind_speed',
+                                             'Valencia_wind_deg',
+                                             'Bilbao_rain_1h',
+                                             'Valencia_wind_speed',
+                                             'Seville_humidity',
+                                             'Madrid_humidity',
+                                             'Bilbao_clouds_all',
+                                             'Bilbao_wind_speed',
+                                             'Seville_clouds_all',
+                                             'Bilbao_wind_deg',
+                                             'Barce...
+                                             'Seville_rain_3h',
+                                             'Madrid_rain_1h',
+                                             'Barcelona_rain_3h',
+                                             'Valencia_snow_3h',
+                                             'Madrid_weather_id',
+                                             'Barcelona_weather_id',
+                                             'Bilbao_pressure',
+                                             'Seville_weather_id',
+                                             'Valencia_pressure',
+                                             'Seville_temp_max',
+                                             'Madrid_pressure', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-03-23 21:56:23,934:INFO:Creating final display dataframe.
+2023-03-23 21:56:24,084:INFO:Setup _display_container:                     Description              Value
+0                    Session id                123
+1                        Target  load_shortfall_3h
+2                   Target type         Regression
+3           Original data shape        (8763, 331)
+4        Transformed data shape        (8763, 331)
+5   Transformed train set shape        (6134, 331)
+6    Transformed test set shape        (2629, 331)
+7              Numeric features                330
+8                    Preprocess               True
+9               Imputation type             simple
+10           Numeric imputation               mean
+11       Categorical imputation               mode
+12               Fold Generator              KFold
+13                  Fold Number                 10
+14                     CPU Jobs                 -1
+15                      Use GPU              False
+16               Log Experiment              False
+17              Experiment Name   reg-default-name
+18                          USI               17dd
+2023-03-23 21:56:24,163:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:24,163:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:24,220:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:24,220:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:56:24,221:INFO:setup() successfully completed in 1.46s...............
+2023-03-23 21:56:24,353:INFO:Initializing compare_models()
+2023-03-23 21:56:24,353:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, include=['et'], fold=None, round=4, cross_validation=True, sort=R2, n_select=3, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, 'include': ['et'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 3, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2023-03-23 21:56:24,353:INFO:Checking exceptions
+2023-03-23 21:56:24,364:INFO:Preparing display monitor
+2023-03-23 21:56:24,394:INFO:Initializing Extra Trees Regressor
+2023-03-23 21:56:24,394:INFO:Total runtime is 6.202856699625651e-06 minutes
+2023-03-23 21:56:24,402:INFO:SubProcess create_model() called ==================================
+2023-03-23 21:56:24,402:INFO:Initializing create_model()
+2023-03-23 21:56:24,402:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x178ab3bb0>, model_only=True, return_train_score=False, kwargs={})
+2023-03-23 21:56:24,402:INFO:Checking exceptions
+2023-03-23 21:56:24,402:INFO:Importing libraries
+2023-03-23 21:56:24,402:INFO:Copying training dataset
+2023-03-23 21:56:24,422:INFO:Defining folds
+2023-03-23 21:56:24,422:INFO:Declaring metric variables
+2023-03-23 21:56:24,423:INFO:Importing untrained model
+2023-03-23 21:56:24,425:INFO:Extra Trees Regressor Imported successfully
+2023-03-23 21:56:24,428:INFO:Starting cross validation
+2023-03-23 21:56:24,434:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-23 21:56:24,441:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,442:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,457:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,458:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,460:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,461:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,465:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,465:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,470:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,472:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,473:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,475:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,481:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,482:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,483:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,484:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,490:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115860a0>
+  pid = os.fork()
+
+2023-03-23 21:56:24,491:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+  pid = os.fork()
+
+2023-03-23 21:56:30,838:INFO:Calculating mean and std
+2023-03-23 21:56:30,839:INFO:Creating metrics dataframe
+2023-03-23 21:56:30,931:INFO:Uploading results into container
+2023-03-23 21:56:30,931:INFO:Uploading model into container now
+2023-03-23 21:56:30,932:INFO:_master_model_container: 1
+2023-03-23 21:56:30,932:INFO:_display_container: 2
+2023-03-23 21:56:30,932:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:56:30,932:INFO:create_model() successfully completed......................................
+2023-03-23 21:56:31,010:INFO:SubProcess create_model() end ==================================
+2023-03-23 21:56:31,010:INFO:Creating metrics dataframe
+2023-03-23 21:56:31,016:INFO:Initializing create_model()
+2023-03-23 21:56:31,017:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-23 21:56:31,017:INFO:Checking exceptions
+2023-03-23 21:56:31,017:INFO:Importing libraries
+2023-03-23 21:56:31,018:INFO:Copying training dataset
+2023-03-23 21:56:31,038:INFO:Defining folds
+2023-03-23 21:56:31,038:INFO:Declaring metric variables
+2023-03-23 21:56:31,038:INFO:Importing untrained model
+2023-03-23 21:56:31,038:INFO:Declaring custom model
+2023-03-23 21:56:31,038:INFO:Extra Trees Regressor Imported successfully
+2023-03-23 21:56:31,039:INFO:Cross validation set to False
+2023-03-23 21:56:31,039:INFO:Fitting Model
+2023-03-23 21:56:31,262:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:56:31,262:INFO:create_model() successfully completed......................................
+2023-03-23 21:56:31,328:INFO:_master_model_container: 1
+2023-03-23 21:56:31,328:INFO:_display_container: 2
+2023-03-23 21:56:31,328:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:56:31,329:INFO:compare_models() successfully completed......................................
+2023-03-23 21:56:31,513:INFO:Initializing plot_model()
+2023-03-23 21:56:31,513:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreeRegressor(random_state=914636141), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, system=True)
+2023-03-23 21:56:31,513:INFO:Checking exceptions
+2023-03-23 21:56:31,537:INFO:Preloading libraries
+2023-03-23 21:56:31,540:INFO:Copying training dataset
+2023-03-23 21:56:31,540:INFO:Plot type: feature
+2023-03-23 21:56:31,541:WARNING:No coef_ found. Trying feature_importances_
+2023-03-23 21:56:31,866:INFO:Visual Rendered Successfully
+2023-03-23 21:56:31,939:INFO:plot_model() successfully completed......................................
+2023-03-23 21:56:32,048:INFO:Initializing predict_model()
+2023-03-23 21:56:32,049:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1789ce5b0>, estimator=ExtraTreeRegressor(random_state=914636141), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x178936040>)
+2023-03-23 21:56:32,049:INFO:Checking exceptions
+2023-03-23 21:56:32,049:INFO:Preloading libraries
+2023-03-23 21:56:32,050:INFO:Set up data.
+2023-03-23 21:56:32,088:INFO:Set up index.
+2023-03-23 21:56:32,128:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/base.py:413: UserWarning: X has feature names, but ExtraTreeRegressor was fitted without feature names
+  warnings.warn(
+
+2023-03-23 21:56:37,138:WARNING:sys:1: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x1115861c0>
+
+2023-03-23 21:57:25,893:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-23 21:57:25,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:57:25,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:57:25,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:57:25,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-23 21:57:26,005:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-23 21:57:26,006:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-23 21:57:26,007:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-23 21:57:26,468:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.
+2023-03-23 21:57:26,593:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-23 21:57:29,903:WARNING:/var/folders/6p/mfdk5t710cq33z7twx0hrc400000gn/T/ipykernel_36364/578373218.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test.drop(columns=['Year'], inplace=True)
+
+2023-03-23 21:57:30,064:INFO:PyCaret RegressionExperiment
+2023-03-23 21:57:30,064:INFO:Logging name: reg-default-name
+2023-03-23 21:57:30,064:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-03-23 21:57:30,064:INFO:version 3.0.0
+2023-03-23 21:57:30,064:INFO:Initializing setup()
+2023-03-23 21:57:30,064:INFO:self.USI: 14dc
+2023-03-23 21:57:30,064:INFO:self._variable_keys: {'X_test', 'data', 'target_param', 'exp_id', 'fold_generator', 'seed', 'fold_shuffle_param', 'y_test', 'X_train', 'exp_name_log', 'X', 'n_jobs_param', 'y_train', '_ml_usecase', 'memory', 'gpu_param', 'USI', 'idx', 'html_param', 'y', 'log_plots_param', '_available_plots', 'gpu_n_jobs_param', 'logging_param', 'transform_target_param', 'pipeline', 'fold_groups_param'}
+2023-03-23 21:57:30,064:INFO:Checking environment
+2023-03-23 21:57:30,064:INFO:python_version: 3.8.16
+2023-03-23 21:57:30,064:INFO:python_build: ('default', 'Mar  1 2023 21:18:45')
+2023-03-23 21:57:30,064:INFO:machine: arm64
+2023-03-23 21:57:30,064:INFO:platform: macOS-13.0.1-arm64-arm-64bit
+2023-03-23 21:57:30,064:INFO:Memory: svmem(total=8589934592, available=2603057152, percent=69.7, used=3966795776, free=53182464, active=2559574016, inactive=2458812416, wired=1407221760)
+2023-03-23 21:57:30,064:INFO:Physical Core: 8
+2023-03-23 21:57:30,064:INFO:Logical Core: 8
+2023-03-23 21:57:30,064:INFO:Checking libraries
+2023-03-23 21:57:30,064:INFO:System:
+2023-03-23 21:57:30,064:INFO:    python: 3.8.16 (default, Mar  1 2023, 21:18:45)  [Clang 14.0.6 ]
+2023-03-23 21:57:30,064:INFO:executable: /opt/homebrew/anaconda3/envs/paula/bin/python
+2023-03-23 21:57:30,064:INFO:   machine: macOS-13.0.1-arm64-arm-64bit
+2023-03-23 21:57:30,064:INFO:PyCaret required dependencies:
+2023-03-23 21:57:30,064:INFO:                 pip: 23.0.1
+2023-03-23 21:57:30,064:INFO:          setuptools: 65.6.3
+2023-03-23 21:57:30,064:INFO:             pycaret: 3.0.0
+2023-03-23 21:57:30,064:INFO:             IPython: 8.11.0
+2023-03-23 21:57:30,064:INFO:          ipywidgets: 8.0.5
+2023-03-23 21:57:30,064:INFO:                tqdm: 4.65.0
+2023-03-23 21:57:30,064:INFO:               numpy: 1.23.5
+2023-03-23 21:57:30,064:INFO:              pandas: 1.5.3
+2023-03-23 21:57:30,064:INFO:              jinja2: 3.1.2
+2023-03-23 21:57:30,064:INFO:               scipy: 1.10.0
+2023-03-23 21:57:30,064:INFO:              joblib: 1.1.1
+2023-03-23 21:57:30,064:INFO:             sklearn: 1.2.1
+2023-03-23 21:57:30,064:INFO:                pyod: 1.0.9
+2023-03-23 21:57:30,064:INFO:            imblearn: 0.10.1
+2023-03-23 21:57:30,064:INFO:   category_encoders: 2.6.0
+2023-03-23 21:57:30,064:INFO:            lightgbm: 3.3.5
+2023-03-23 21:57:30,064:INFO:               numba: 0.56.4
+2023-03-23 21:57:30,064:INFO:            requests: 2.28.1
+2023-03-23 21:57:30,064:INFO:          matplotlib: 3.7.1
+2023-03-23 21:57:30,064:INFO:          scikitplot: 0.3.7
+2023-03-23 21:57:30,064:INFO:         yellowbrick: 1.5
+2023-03-23 21:57:30,064:INFO:              plotly: 5.13.1
+2023-03-23 21:57:30,064:INFO:             kaleido: 0.2.1
+2023-03-23 21:57:30,064:INFO:         statsmodels: 0.13.5
+2023-03-23 21:57:30,064:INFO:              sktime: 0.16.1
+2023-03-23 21:57:30,064:INFO:               tbats: 1.1.2
+2023-03-23 21:57:30,064:INFO:            pmdarima: 2.0.3
+2023-03-23 21:57:30,064:INFO:              psutil: 5.9.4
+2023-03-23 21:57:30,064:INFO:PyCaret optional dependencies:
+2023-03-23 21:57:30,071:INFO:                shap: Not installed
+2023-03-23 21:57:30,071:INFO:           interpret: Not installed
+2023-03-23 21:57:30,071:INFO:                umap: Not installed
+2023-03-23 21:57:30,071:INFO:    pandas_profiling: Not installed
+2023-03-23 21:57:30,071:INFO:  explainerdashboard: Not installed
+2023-03-23 21:57:30,071:INFO:             autoviz: Not installed
+2023-03-23 21:57:30,071:INFO:           fairlearn: Not installed
+2023-03-23 21:57:30,071:INFO:             xgboost: Not installed
+2023-03-23 21:57:30,071:INFO:            catboost: Not installed
+2023-03-23 21:57:30,071:INFO:              kmodes: Not installed
+2023-03-23 21:57:30,071:INFO:             mlxtend: Not installed
+2023-03-23 21:57:30,071:INFO:       statsforecast: Not installed
+2023-03-23 21:57:30,071:INFO:        tune_sklearn: Not installed
+2023-03-23 21:57:30,071:INFO:                 ray: Not installed
+2023-03-23 21:57:30,071:INFO:            hyperopt: Not installed
+2023-03-23 21:57:30,071:INFO:              optuna: Not installed
+2023-03-23 21:57:30,071:INFO:               skopt: Not installed
+2023-03-23 21:57:30,071:INFO:              mlflow: Not installed
+2023-03-23 21:57:30,071:INFO:              gradio: Not installed
+2023-03-23 21:57:30,071:INFO:             fastapi: Not installed
+2023-03-23 21:57:30,072:INFO:             uvicorn: Not installed
+2023-03-23 21:57:30,072:INFO:              m2cgen: Not installed
+2023-03-23 21:57:30,072:INFO:           evidently: Not installed
+2023-03-23 21:57:30,072:INFO:               fugue: Not installed
+2023-03-23 21:57:30,072:INFO:           streamlit: Not installed
+2023-03-23 21:57:30,072:INFO:             prophet: Not installed
+2023-03-23 21:57:30,072:INFO:None
+2023-03-23 21:57:30,072:INFO:Set up data.
+2023-03-23 21:57:30,110:INFO:Set up train/test split.
+2023-03-23 21:57:30,110:INFO:Set up data.
+2023-03-23 21:57:30,150:INFO:Set up index.
+2023-03-23 21:57:30,151:INFO:Set up folding strategy.
+2023-03-23 21:57:30,151:INFO:Assigning column types.
+2023-03-23 21:57:30,164:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-03-23 21:57:30,165:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,167:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,168:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,199:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,217:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,218:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,236:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,237:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,238:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,240:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,272:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,290:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,291:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,291:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,291:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2023-03-23 21:57:30,293:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,295:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,326:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,344:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,345:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,345:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,347:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,349:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,380:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,398:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,398:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,399:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,399:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2023-03-23 21:57:30,402:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,434:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,452:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,453:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,453:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,457:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,489:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,508:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,509:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,509:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,509:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2023-03-23 21:57:30,552:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,574:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,575:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,575:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,616:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,638:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,638:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,638:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,638:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-03-23 21:57:30,682:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,701:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,701:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,753:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-23 21:57:30,781:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,782:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,782:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2023-03-23 21:57:30,855:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,855:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,911:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,911:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:30,913:INFO:Preparing preprocessing pipeline...
+2023-03-23 21:57:30,913:INFO:Set up simple imputation.
+2023-03-23 21:57:30,954:INFO:Finished creating preprocessing pipeline.
+2023-03-23 21:57:30,958:INFO:Pipeline: Pipeline(memory=FastMemory(location=/var/folders/6p/mfdk5t710cq33z7twx0hrc400000gn/T/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Madrid_wind_speed',
+                                             'Valencia_wind_deg',
+                                             'Bilbao_rain_1h',
+                                             'Valencia_wind_speed',
+                                             'Seville_humidity',
+                                             'Madrid_humidity',
+                                             'Bilbao_clouds_all',
+                                             'Bilbao_wind_speed',
+                                             'Seville_clouds_all',
+                                             'Bilbao_wind_deg',
+                                             'Barce...
+                                             'Seville_rain_3h',
+                                             'Madrid_rain_1h',
+                                             'Barcelona_rain_3h',
+                                             'Valencia_snow_3h',
+                                             'Madrid_weather_id',
+                                             'Barcelona_weather_id',
+                                             'Bilbao_pressure',
+                                             'Seville_weather_id',
+                                             'Valencia_pressure',
+                                             'Seville_temp_max',
+                                             'Madrid_pressure', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-03-23 21:57:30,958:INFO:Creating final display dataframe.
+2023-03-23 21:57:31,113:INFO:Setup _display_container:                     Description              Value
+0                    Session id                123
+1                        Target  load_shortfall_3h
+2                   Target type         Regression
+3           Original data shape        (8763, 331)
+4        Transformed data shape        (8763, 331)
+5   Transformed train set shape        (5843, 331)
+6    Transformed test set shape        (2920, 331)
+7              Numeric features                330
+8                    Preprocess               True
+9               Imputation type             simple
+10           Numeric imputation               mean
+11       Categorical imputation               mode
+12               Fold Generator              KFold
+13                  Fold Number                 10
+14                     CPU Jobs                 -1
+15                      Use GPU              False
+16               Log Experiment              False
+17              Experiment Name   reg-default-name
+18                          USI               14dc
+2023-03-23 21:57:31,173:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:31,173:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:31,226:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:31,226:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-23 21:57:31,226:INFO:setup() successfully completed in 1.28s...............
+2023-03-23 21:57:31,323:INFO:Initializing compare_models()
+2023-03-23 21:57:31,323:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, include=['et'], fold=None, round=4, cross_validation=True, sort=R2, n_select=3, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, 'include': ['et'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 3, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2023-03-23 21:57:31,323:INFO:Checking exceptions
+2023-03-23 21:57:31,328:INFO:Preparing display monitor
+2023-03-23 21:57:31,349:INFO:Initializing Extra Trees Regressor
+2023-03-23 21:57:31,350:INFO:Total runtime is 4.967053731282552e-06 minutes
+2023-03-23 21:57:31,357:INFO:SubProcess create_model() called ==================================
+2023-03-23 21:57:31,357:INFO:Initializing create_model()
+2023-03-23 21:57:31,357:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x152299580>, model_only=True, return_train_score=False, kwargs={})
+2023-03-23 21:57:31,358:INFO:Checking exceptions
+2023-03-23 21:57:31,358:INFO:Importing libraries
+2023-03-23 21:57:31,358:INFO:Copying training dataset
+2023-03-23 21:57:31,375:INFO:Defining folds
+2023-03-23 21:57:31,375:INFO:Declaring metric variables
+2023-03-23 21:57:31,377:INFO:Importing untrained model
+2023-03-23 21:57:31,378:INFO:Extra Trees Regressor Imported successfully
+2023-03-23 21:57:31,381:INFO:Starting cross validation
+2023-03-23 21:57:31,386:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-23 21:57:31,391:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,392:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,406:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,407:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,409:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,410:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,412:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,412:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,414:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,415:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,421:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,422:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,425:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,427:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,430:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,431:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:57:31,435:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c160>
+  pid = os.fork()
+
+2023-03-23 21:57:31,436:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/joblib/externals/loky/backend/fork_exec.py:43: ResourceWarning: unclosed socket <zmq.Socket(zmq.PUSH) at 0x10392c1c0>
+  pid = os.fork()
+
+2023-03-23 21:58:25,323:INFO:Calculating mean and std
+2023-03-23 21:58:25,326:INFO:Creating metrics dataframe
+2023-03-23 21:58:25,485:INFO:Uploading results into container
+2023-03-23 21:58:25,485:INFO:Uploading model into container now
+2023-03-23 21:58:25,486:INFO:_master_model_container: 1
+2023-03-23 21:58:25,486:INFO:_display_container: 2
+2023-03-23 21:58:25,487:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:58:25,487:INFO:create_model() successfully completed......................................
+2023-03-23 21:58:25,630:INFO:SubProcess create_model() end ==================================
+2023-03-23 21:58:25,630:INFO:Creating metrics dataframe
+2023-03-23 21:58:25,657:INFO:Initializing create_model()
+2023-03-23 21:58:25,657:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-23 21:58:25,657:INFO:Checking exceptions
+2023-03-23 21:58:25,659:INFO:Importing libraries
+2023-03-23 21:58:25,659:INFO:Copying training dataset
+2023-03-23 21:58:25,697:INFO:Defining folds
+2023-03-23 21:58:25,697:INFO:Declaring metric variables
+2023-03-23 21:58:25,697:INFO:Importing untrained model
+2023-03-23 21:58:25,697:INFO:Declaring custom model
+2023-03-23 21:58:25,699:INFO:Extra Trees Regressor Imported successfully
+2023-03-23 21:58:25,700:INFO:Cross validation set to False
+2023-03-23 21:58:25,700:INFO:Fitting Model
+2023-03-23 21:58:31,471:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:58:31,471:INFO:create_model() successfully completed......................................
+2023-03-23 21:58:31,592:INFO:_master_model_container: 1
+2023-03-23 21:58:31,593:INFO:_display_container: 2
+2023-03-23 21:58:31,593:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-23 21:58:31,593:INFO:compare_models() successfully completed......................................
+2023-03-23 21:58:32,183:INFO:Initializing plot_model()
+2023-03-23 21:58:32,184:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreeRegressor(random_state=914636141), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, system=True)
+2023-03-23 21:58:32,184:INFO:Checking exceptions
+2023-03-23 21:58:32,200:INFO:Preloading libraries
+2023-03-23 21:58:32,201:INFO:Copying training dataset
+2023-03-23 21:58:32,201:INFO:Plot type: feature
+2023-03-23 21:58:32,202:WARNING:No coef_ found. Trying feature_importances_
+2023-03-23 21:58:32,435:INFO:Visual Rendered Successfully
+2023-03-23 21:58:32,550:INFO:plot_model() successfully completed......................................
+2023-03-23 21:58:32,786:INFO:Initializing predict_model()
+2023-03-23 21:58:32,786:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x1521af3a0>, estimator=ExtraTreeRegressor(random_state=914636141), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x150c63280>)
+2023-03-23 21:58:32,788:INFO:Checking exceptions
+2023-03-23 21:58:32,789:INFO:Preloading libraries
+2023-03-23 21:58:32,792:INFO:Set up data.
+2023-03-23 21:58:32,831:INFO:Set up index.
+2023-03-23 21:58:32,862:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/base.py:413: UserWarning: X has feature names, but ExtraTreeRegressor was fitted without feature names
+  warnings.warn(
+
+2023-03-23 22:03:23,341:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:03:46,974:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:04:10,746:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:04:33,897:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:04:57,174:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:05:20,067:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:05:42,885:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:06:05,728:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:06:28,652:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:06:51,378:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:07:14,266:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:07:37,099:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:07:59,813:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:08:22,444:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:08:46,485:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:09:09,171:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:09:32,245:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:09:54,742:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:10:17,303:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:10:40,997:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:11:06,662:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:11:29,479:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:11:52,093:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:12:14,748:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:12:37,165:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:12:59,526:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:13:21,906:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:13:43,927:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:14:05,940:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:14:28,657:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:14:50,821:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:15:12,793:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:15:34,889:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:15:56,263:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:16:17,999:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:16:39,359:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:17:00,745:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:17:22,063:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:17:43,308:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:18:04,414:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:18:25,436:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:18:46,888:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:19:08,921:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:19:29,815:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:19:50,641:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:20:11,794:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:20:32,470:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:20:53,120:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:21:13,683:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:21:34,102:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:21:54,462:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:22:14,800:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:22:35,142:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:22:55,283:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:23:15,281:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:23:35,260:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:23:55,096:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:24:14,982:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:24:34,766:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:24:54,530:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:25:14,306:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:25:34,289:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:25:53,815:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:26:13,302:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:26:33,479:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:26:53,371:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:27:13,259:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:27:34,465:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:27:53,655:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:28:12,699:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:28:31,749:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:28:50,660:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:29:09,515:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:29:28,301:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:29:46,968:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:30:05,732:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:30:24,367:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:30:42,832:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:31:01,438:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:31:19,788:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:31:38,064:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:31:56,300:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:32:14,461:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:32:32,589:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:32:50,566:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:33:08,492:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:33:26,436:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:33:44,194:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:34:01,935:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:34:19,586:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:34:37,103:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:34:54,662:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:35:12,070:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:35:29,393:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:35:46,683:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:36:03,885:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:36:21,014:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:36:38,043:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:36:55,016:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:37:11,933:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:37:28,786:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:37:45,663:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:38:02,307:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:38:18,909:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:38:35,478:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:38:51,959:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:39:08,329:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:39:24,616:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:39:40,837:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:39:57,013:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:40:13,271:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:40:29,923:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:40:45,889:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:41:02,008:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:41:18,395:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:41:35,793:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:41:52,026:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:42:08,725:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:42:24,399:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:42:40,005:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:42:55,451:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:43:10,918:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:43:26,276:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:43:41,572:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:43:56,695:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:44:11,735:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:44:26,806:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:44:41,787:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:44:56,633:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:45:11,866:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:45:26,974:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:45:41,693:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:45:56,322:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:46:10,987:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:46:25,511:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:46:39,963:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:46:54,257:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:47:08,475:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:47:22,654:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:47:36,759:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:47:50,856:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:48:04,885:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:48:18,816:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:48:32,628:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:48:46,425:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:49:00,195:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:49:13,831:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:49:27,457:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:49:40,903:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:49:54,326:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:50:07,845:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:50:21,192:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:50:34,366:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:50:47,695:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:51:01,458:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:51:15,150:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:51:28,134:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:51:40,960:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:51:53,884:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:52:07,782:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:52:22,184:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:52:35,175:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:52:47,884:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:53:00,346:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:53:12,710:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:53:24,986:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:53:37,181:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:53:49,488:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:54:03,803:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:54:16,728:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:54:28,837:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:54:41,028:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:54:53,314:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:55:05,546:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:55:17,291:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:55:29,212:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:55:40,852:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:55:52,958:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:56:04,748:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:56:16,116:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:56:27,649:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:56:39,121:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:56:51,117:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:02,203:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:13,318:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:24,390:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:35,226:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:45,976:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:57:57,490:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:58:08,605:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:58:19,854:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:58:31,541:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:58:42,099:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:58:52,453:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:02,622:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:12,841:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:22,975:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:33,331:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:43,258:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 22:59:53,841:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:03,722:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:13,581:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:23,305:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:32,905:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:42,405:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:00:52,032:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:01,379:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:10,724:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:20,146:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:29,342:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:38,397:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:47,434:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:01:56,354:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:05,226:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:13,953:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:22,711:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:31,343:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:41,123:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-23 23:02:49,997:WARNING:/opt/homebrew/anaconda3/envs/paula/lib/python3.8/site-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
