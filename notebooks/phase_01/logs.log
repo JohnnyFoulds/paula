@@ -1493,3 +1493,1769 @@ THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
 2023-03-24 09:30:12,388:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:326: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   self.estimator_.fit(X[:, features], y, **fit_params)
 
+2023-03-24 19:02:55,485:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-24 19:02:55,519:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:02:55,519:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:02:55,519:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:02:55,519:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:02:55,521:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 19:02:55,521:WARNING:/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-24 19:02:55,522:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 19:02:55,680:INFO:Soft dependency imported: prophet: 1.1.2
+2023-03-24 19:02:55,771:WARNING:/usr/local/lib/python3.8/dist-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-24 19:02:56,426:WARNING:/tmp/ipykernel_59528/394908889.py:5: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated. Please use Series.dt.isocalendar().week instead.
+  df_plot['week'] = df_plot.time.dt.week
+
+2023-03-24 19:02:56,431:WARNING:/tmp/ipykernel_59528/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:02:56,643:WARNING:/tmp/ipykernel_59528/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:02:56,914:WARNING:/tmp/ipykernel_59528/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:02:57,157:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:57,349:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:57,579:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:57,786:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:57,981:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:58,187:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:58,499:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:58,698:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:58,905:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:59,095:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:59,294:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:59,491:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:59,697:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:02:59,893:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:00,218:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:00,427:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:00,622:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:00,810:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:01,032:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:01,224:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:01,416:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:01,633:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:01,833:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:02,026:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:02,236:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:02,599:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:02,795:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:02,983:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:03,181:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:03,373:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:03,580:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:03,760:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:03,943:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:04,159:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:04,374:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:04,572:WARNING:/tmp/ipykernel_59528/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:03:04,862:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:05,299:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:05,478:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:05,655:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:05,829:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:06,015:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:06,220:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:06,430:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:06,624:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:06,812:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:07,057:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:07,241:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:07,442:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:07,636:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:07,856:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:08,067:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:08,288:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:08,800:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,001:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,190:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,364:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,549:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,727:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:09,919:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:10,110:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:10,301:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:10,483:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:10,680:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:10,871:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,061:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,253:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,447:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,622:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,799:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:11,987:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:12,170:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:12,711:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:12,906:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:13,110:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:13,296:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:13,482:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:13,702:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:13,930:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:14,140:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:14,334:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:14,546:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:14,741:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:14,939:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:15,155:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:15,356:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:15,556:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:15,749:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:15,993:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:16,195:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:16,408:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:16,625:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:16,818:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:17,010:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:17,213:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:17,431:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:18,106:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:18,311:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:18,522:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:18,748:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:18,939:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:19,141:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:19,357:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:19,585:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:19,814:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:20,027:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:20,244:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:20,461:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:20,688:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:20,908:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:21,108:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:03:21,305:WARNING:/tmp/ipykernel_59528/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:04,224:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-24 19:04:04,259:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:04:04,259:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:04:04,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:04:04,260:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 19:04:04,262:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 19:04:04,262:WARNING:/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-24 19:04:04,263:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 19:04:04,438:INFO:Soft dependency imported: prophet: 1.1.2
+2023-03-24 19:04:04,536:WARNING:/usr/local/lib/python3.8/dist-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-24 19:04:05,165:WARNING:/tmp/ipykernel_59763/394908889.py:5: FutureWarning: Series.dt.weekofyear and Series.dt.week have been deprecated. Please use Series.dt.isocalendar().week instead.
+  df_plot['week'] = df_plot.time.dt.week
+
+2023-03-24 19:04:05,170:WARNING:/tmp/ipykernel_59763/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:04:05,339:WARNING:/tmp/ipykernel_59763/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:04:05,497:WARNING:/tmp/ipykernel_59763/394908889.py:11: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_year.corr()
+
+2023-03-24 19:04:05,779:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:05,912:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,059:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,198:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,341:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,483:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,630:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:06,874:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,020:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,193:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,349:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,499:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,648:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,804:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:07,950:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,095:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,383:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,534:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,675:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,814:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:08,962:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,107:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,253:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,392:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,543:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,686:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:09,835:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,151:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,300:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,447:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,595:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,748:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:10,889:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:11,036:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:11,209:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:11,353:WARNING:/tmp/ipykernel_59763/2571898790.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_month.corr()
+
+2023-03-24 19:04:11,573:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:11,726:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:11,863:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,004:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,142:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,279:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,676:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,825:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:12,980:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,126:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,273:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,415:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,559:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,727:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:13,879:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,052:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,224:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,376:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,535:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,683:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,827:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:14,973:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:15,129:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:15,578:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:15,725:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:15,870:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,033:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,181:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,344:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,512:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,657:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,796:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:16,940:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,086:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,231:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,390:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,528:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,680:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,839:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:17,988:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:18,138:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:18,279:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:18,438:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:18,587:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:18,730:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:19,269:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:19,420:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:19,573:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:19,743:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:19,893:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,056:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,204:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,365:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,518:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,672:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,853:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:20,995:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,142:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,284:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,431:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,570:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,713:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,857:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:21,997:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,136:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,305:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,471:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,640:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,783:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:22,944:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:23,116:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:23,273:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:23,934:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,096:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,258:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,429:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,586:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,750:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:24,914:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,072:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,242:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,406:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,562:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,721:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:25,886:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,044:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,205:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,362:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,529:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,687:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:26,854:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,020:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,182:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,336:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,501:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,668:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:27,836:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,005:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,170:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,329:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,490:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,663:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,819:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:28,987:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:29,153:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:29,927:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,089:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,262:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,422:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,598:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,762:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:30,934:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,098:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,260:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,424:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,586:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,750:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:31,907:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,079:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,237:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,416:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,578:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,752:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:32,917:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,075:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,238:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,406:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,565:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,749:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:33,902:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,065:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,228:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,403:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,566:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,743:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:34,909:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,078:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,239:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,413:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,572:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,741:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:35,919:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:36,094:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:36,258:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:36,424:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:36,602:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:37,522:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:37,683:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:37,845:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,025:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,190:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,365:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,525:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,697:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:38,859:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:39,040:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:39,218:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:39,387:WARNING:/tmp/ipykernel_59763/1465276900.py:3: FutureWarning: The default value of numeric_only in DataFrame.corr is deprecated. In a future version, it will default to False. Select only valid columns or specify the value of numeric_only to silence this warning.
+  corr_matrix = df_week.corr()
+
+2023-03-24 19:04:39,688:WARNING:/tmp/ipykernel_59763/593476288.py:1: FutureWarning: The default value of numeric_only in DataFrameGroupBy.mean is deprecated. In a future version, numeric_only will default to False. Either specify numeric_only or select only columns which should be valid for the function.
+  df_resampled = df_train.resample('M', on='time').mean()
+
+2023-03-24 19:04:43,593:WARNING:/tmp/ipykernel_59763/578373218.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test.drop(columns=['Year'], inplace=True)
+
+2023-03-24 19:04:43,820:INFO:PyCaret RegressionExperiment
+2023-03-24 19:04:43,820:INFO:Logging name: reg-default-name
+2023-03-24 19:04:43,820:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-03-24 19:04:43,820:INFO:version 3.0.0
+2023-03-24 19:04:43,820:INFO:Initializing setup()
+2023-03-24 19:04:43,820:INFO:self.USI: f172
+2023-03-24 19:04:43,820:INFO:self._variable_keys: {'idx', 'n_jobs_param', 'exp_id', 'y_train', 'X', 'data', 'X_train', 'exp_name_log', 'fold_groups_param', 'transform_target_param', 'y', 'target_param', 'fold_shuffle_param', 'fold_generator', 'USI', 'logging_param', 'gpu_n_jobs_param', '_available_plots', 'seed', 'y_test', 'pipeline', 'gpu_param', '_ml_usecase', 'html_param', 'X_test', 'log_plots_param', 'memory'}
+2023-03-24 19:04:43,820:INFO:Checking environment
+2023-03-24 19:04:43,820:INFO:python_version: 3.8.10
+2023-03-24 19:04:43,820:INFO:python_build: ('default', 'Jun 22 2022 20:18:18')
+2023-03-24 19:04:43,820:INFO:machine: x86_64
+2023-03-24 19:04:43,820:INFO:platform: Linux-5.19.0-35-generic-x86_64-with-glibc2.29
+2023-03-24 19:04:43,820:INFO:Memory: svmem(total=135016697856, available=119337570304, percent=11.6, used=13612417024, free=112728387584, active=3754545152, inactive=16507265024, buffers=494489600, cached=8181403648, shared=794394624, slab=1254866944)
+2023-03-24 19:04:43,821:INFO:Physical Core: 8
+2023-03-24 19:04:43,821:INFO:Logical Core: 16
+2023-03-24 19:04:43,821:INFO:Checking libraries
+2023-03-24 19:04:43,821:INFO:System:
+2023-03-24 19:04:43,821:INFO:    python: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+2023-03-24 19:04:43,821:INFO:executable: /usr/bin/python3
+2023-03-24 19:04:43,821:INFO:   machine: Linux-5.19.0-35-generic-x86_64-with-glibc2.29
+2023-03-24 19:04:43,821:INFO:PyCaret required dependencies:
+2023-03-24 19:04:43,821:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2023-03-24 19:04:43,821:INFO:                 pip: 20.0.2
+2023-03-24 19:04:43,821:INFO:          setuptools: 45.2.0
+2023-03-24 19:04:43,821:INFO:             pycaret: 3.0.0
+2023-03-24 19:04:43,821:INFO:             IPython: 8.11.0
+2023-03-24 19:04:43,821:INFO:          ipywidgets: 8.0.5
+2023-03-24 19:04:43,821:INFO:                tqdm: 4.65.0
+2023-03-24 19:04:43,821:INFO:               numpy: 1.23.4
+2023-03-24 19:04:43,821:INFO:              pandas: 1.5.3
+2023-03-24 19:04:43,821:INFO:              jinja2: 3.1.2
+2023-03-24 19:04:43,821:INFO:               scipy: 1.10.1
+2023-03-24 19:04:43,821:INFO:              joblib: 1.2.0
+2023-03-24 19:04:43,821:INFO:             sklearn: 1.2.2
+2023-03-24 19:04:43,821:INFO:                pyod: 1.0.9
+2023-03-24 19:04:43,821:INFO:            imblearn: 0.10.1
+2023-03-24 19:04:43,821:INFO:   category_encoders: 2.6.0
+2023-03-24 19:04:43,821:INFO:            lightgbm: 3.3.5
+2023-03-24 19:04:43,822:INFO:               numba: 0.56.4
+2023-03-24 19:04:43,822:INFO:            requests: 2.28.2
+2023-03-24 19:04:43,822:INFO:          matplotlib: 3.7.1
+2023-03-24 19:04:43,822:INFO:          scikitplot: 0.3.7
+2023-03-24 19:04:43,822:INFO:         yellowbrick: 1.5
+2023-03-24 19:04:43,822:INFO:              plotly: 5.13.1
+2023-03-24 19:04:43,822:INFO:             kaleido: 0.2.1
+2023-03-24 19:04:43,822:INFO:         statsmodels: 0.13.5
+2023-03-24 19:04:43,822:INFO:              sktime: 0.16.1
+2023-03-24 19:04:43,822:INFO:               tbats: 1.1.2
+2023-03-24 19:04:43,822:INFO:            pmdarima: 2.0.3
+2023-03-24 19:04:43,822:INFO:              psutil: 5.9.4
+2023-03-24 19:04:43,822:INFO:PyCaret optional dependencies:
+2023-03-24 19:04:43,829:INFO:                shap: Not installed
+2023-03-24 19:04:43,829:INFO:           interpret: Not installed
+2023-03-24 19:04:43,829:INFO:                umap: Not installed
+2023-03-24 19:04:43,829:INFO:    pandas_profiling: Not installed
+2023-03-24 19:04:43,829:INFO:  explainerdashboard: Not installed
+2023-03-24 19:04:43,830:INFO:             autoviz: Not installed
+2023-03-24 19:04:43,830:INFO:           fairlearn: Not installed
+2023-03-24 19:04:43,830:INFO:             xgboost: Not installed
+2023-03-24 19:04:43,830:INFO:            catboost: Not installed
+2023-03-24 19:04:43,830:INFO:              kmodes: Not installed
+2023-03-24 19:04:43,830:INFO:             mlxtend: Not installed
+2023-03-24 19:04:43,830:INFO:       statsforecast: Not installed
+2023-03-24 19:04:43,830:INFO:        tune_sklearn: Not installed
+2023-03-24 19:04:43,830:INFO:                 ray: Not installed
+2023-03-24 19:04:43,830:INFO:            hyperopt: Not installed
+2023-03-24 19:04:43,830:INFO:              optuna: Not installed
+2023-03-24 19:04:43,830:INFO:               skopt: Not installed
+2023-03-24 19:04:43,830:INFO:              mlflow: Not installed
+2023-03-24 19:04:43,830:INFO:              gradio: Not installed
+2023-03-24 19:04:43,830:INFO:             fastapi: Not installed
+2023-03-24 19:04:43,830:INFO:             uvicorn: Not installed
+2023-03-24 19:04:43,830:INFO:              m2cgen: Not installed
+2023-03-24 19:04:43,830:INFO:           evidently: Not installed
+2023-03-24 19:04:43,830:INFO:               fugue: Not installed
+2023-03-24 19:04:43,830:INFO:           streamlit: Not installed
+2023-03-24 19:04:43,830:INFO:             prophet: 1.1.2
+2023-03-24 19:04:43,830:INFO:None
+2023-03-24 19:04:43,830:INFO:Set up data.
+2023-03-24 19:04:43,833:INFO:Set up train/test split.
+2023-03-24 19:04:43,834:INFO:Set up data.
+2023-03-24 19:04:43,836:INFO:Set up index.
+2023-03-24 19:04:43,836:INFO:Set up folding strategy.
+2023-03-24 19:04:43,836:INFO:Assigning column types.
+2023-03-24 19:04:43,838:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-03-24 19:04:43,838:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,841:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,844:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,877:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,903:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,903:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:43,908:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:43,909:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,911:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,914:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,948:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,974:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,974:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:43,974:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:43,974:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2023-03-24 19:04:43,977:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 19:04:43,980:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,013:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,039:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,040:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,040:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,043:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,045:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,079:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,105:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,106:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,106:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,106:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2023-03-24 19:04:44,111:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,145:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,170:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,171:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,171:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,176:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,209:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,235:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,235:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,235:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,236:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2023-03-24 19:04:44,275:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,300:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,301:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,301:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,340:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,365:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,366:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,366:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,366:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-03-24 19:04:44,404:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,439:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,439:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,480:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 19:04:44,508:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,508:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,509:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2023-03-24 19:04:44,577:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,577:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,643:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,643:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,644:INFO:Preparing preprocessing pipeline...
+2023-03-24 19:04:44,644:INFO:Set up simple imputation.
+2023-03-24 19:04:44,653:INFO:Finished creating preprocessing pipeline.
+2023-03-24 19:04:44,656:INFO:Pipeline: Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Day', 'Hour',
+                                             'Bilbao_wind_deg_rolling_avg_30',
+                                             'Seville_humidity_rolling_avg_90',
+                                             'Valencia_wind_speed_rolling_avg_365'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-03-24 19:04:44,656:INFO:Creating final display dataframe.
+2023-03-24 19:04:44,685:INFO:Setup _display_container:                     Description              Value
+0                    Session id                123
+1                        Target  load_shortfall_3h
+2                   Target type         Regression
+3           Original data shape          (8763, 6)
+4        Transformed data shape          (8763, 6)
+5   Transformed train set shape          (5843, 6)
+6    Transformed test set shape          (2920, 6)
+7              Numeric features                  5
+8                    Preprocess               True
+9               Imputation type             simple
+10           Numeric imputation               mean
+11       Categorical imputation               mode
+12               Fold Generator              KFold
+13                  Fold Number                 10
+14                     CPU Jobs                 -1
+15                      Use GPU              False
+16               Log Experiment              False
+17              Experiment Name   reg-default-name
+18                          USI               f172
+2023-03-24 19:04:44,754:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,754:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,820:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,820:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 19:04:44,820:INFO:setup() successfully completed in 1.02s...............
+2023-03-24 19:04:44,966:INFO:Initializing compare_models()
+2023-03-24 19:04:44,966:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, include=['et'], fold=None, round=4, cross_validation=True, sort=R2, n_select=3, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, 'include': ['et'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 3, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2023-03-24 19:04:44,966:INFO:Checking exceptions
+2023-03-24 19:04:44,967:INFO:Preparing display monitor
+2023-03-24 19:04:44,981:INFO:Initializing Extra Trees Regressor
+2023-03-24 19:04:44,981:INFO:Total runtime is 1.4662742614746095e-06 minutes
+2023-03-24 19:04:44,983:INFO:SubProcess create_model() called ==================================
+2023-03-24 19:04:44,984:INFO:Initializing create_model()
+2023-03-24 19:04:44,984:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7efccfe47a60>, model_only=True, return_train_score=False, kwargs={})
+2023-03-24 19:04:44,984:INFO:Checking exceptions
+2023-03-24 19:04:44,984:INFO:Importing libraries
+2023-03-24 19:04:44,984:INFO:Copying training dataset
+2023-03-24 19:04:44,987:INFO:Defining folds
+2023-03-24 19:04:44,987:INFO:Declaring metric variables
+2023-03-24 19:04:44,989:INFO:Importing untrained model
+2023-03-24 19:04:44,991:INFO:Extra Trees Regressor Imported successfully
+2023-03-24 19:04:44,995:INFO:Starting cross validation
+2023-03-24 19:04:44,997:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-24 19:04:45,023:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,078:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,103:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,129:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,155:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,180:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,216:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,254:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,281:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,320:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,362:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,405:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,448:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,488:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,524:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,559:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:45,587:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7efd9479a1c0>
+  pid = os.fork()
+
+2023-03-24 19:04:47,266:INFO:Calculating mean and std
+2023-03-24 19:04:47,267:INFO:Creating metrics dataframe
+2023-03-24 19:04:47,316:INFO:Uploading results into container
+2023-03-24 19:04:47,317:INFO:Uploading model into container now
+2023-03-24 19:04:47,317:INFO:_master_model_container: 1
+2023-03-24 19:04:47,317:INFO:_display_container: 2
+2023-03-24 19:04:47,317:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 19:04:47,318:INFO:create_model() successfully completed......................................
+2023-03-24 19:04:48,215:INFO:SubProcess create_model() end ==================================
+2023-03-24 19:04:48,215:INFO:Creating metrics dataframe
+2023-03-24 19:04:48,225:INFO:Initializing create_model()
+2023-03-24 19:04:48,226:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-24 19:04:48,226:INFO:Checking exceptions
+2023-03-24 19:04:48,227:INFO:Importing libraries
+2023-03-24 19:04:48,227:INFO:Copying training dataset
+2023-03-24 19:04:48,229:INFO:Defining folds
+2023-03-24 19:04:48,229:INFO:Declaring metric variables
+2023-03-24 19:04:48,229:INFO:Importing untrained model
+2023-03-24 19:04:48,229:INFO:Declaring custom model
+2023-03-24 19:04:48,229:INFO:Extra Trees Regressor Imported successfully
+2023-03-24 19:04:48,230:INFO:Cross validation set to False
+2023-03-24 19:04:48,230:INFO:Fitting Model
+2023-03-24 19:04:48,357:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 19:04:48,357:INFO:create_model() successfully completed......................................
+2023-03-24 19:04:49,180:INFO:_master_model_container: 1
+2023-03-24 19:04:49,180:INFO:_display_container: 2
+2023-03-24 19:04:49,181:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 19:04:49,181:INFO:compare_models() successfully completed......................................
+2023-03-24 19:04:49,385:INFO:Initializing plot_model()
+2023-03-24 19:04:49,385:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreeRegressor(random_state=914636141), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, system=True)
+2023-03-24 19:04:49,385:INFO:Checking exceptions
+2023-03-24 19:04:49,388:INFO:Preloading libraries
+2023-03-24 19:04:49,389:INFO:Copying training dataset
+2023-03-24 19:04:49,389:INFO:Plot type: feature
+2023-03-24 19:04:49,390:WARNING:No coef_ found. Trying feature_importances_
+2023-03-24 19:04:49,503:INFO:Visual Rendered Successfully
+2023-03-24 19:04:50,335:INFO:plot_model() successfully completed......................................
+2023-03-24 19:04:50,552:INFO:Initializing predict_model()
+2023-03-24 19:04:50,552:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7efccf9ffc70>, estimator=ExtraTreeRegressor(random_state=914636141), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7efccfa0eb80>)
+2023-03-24 19:04:50,552:INFO:Checking exceptions
+2023-03-24 19:04:50,552:INFO:Preloading libraries
+2023-03-24 19:04:50,553:INFO:Set up data.
+2023-03-24 19:04:50,557:INFO:Set up index.
+2023-03-24 19:04:50,567:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but ExtraTreeRegressor was fitted without feature names
+  warnings.warn(
+
+2023-03-24 19:04:53,935:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:54,059:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:54,236:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:54,486:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:54,851:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:55,245:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:55,336:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:55,482:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:55,684:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:55,941:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:56,259:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:56,342:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:56,473:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:56,651:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:56,877:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:57,151:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:57,238:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:57,374:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:57,562:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:57,802:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:58,093:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:58,180:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:58,316:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:58,505:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:58,750:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,045:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,130:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,258:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,437:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,659:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:04:59,933:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,010:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,128:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,293:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,504:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,748:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,830:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:00,947:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,104:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,303:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,553:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,632:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,748:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:01,905:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:02,104:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:12,926:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:12,985:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,053:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,133:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,224:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,339:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,399:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,471:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,552:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,644:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,747:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,805:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,875:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:13,955:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,046:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,152:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,212:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,292:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,377:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,471:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,572:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,630:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,700:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,779:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,869:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:14,969:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,027:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,097:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,177:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,269:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,369:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,427:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,496:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,574:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,664:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,763:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,821:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,890:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:15,970:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,061:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,160:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,218:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,288:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,367:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:16,466:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:21,928:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,016:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,131:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,270:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,437:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,625:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,707:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,817:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:22,954:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,117:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,304:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,382:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,489:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,626:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,786:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:23,967:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,048:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,156:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,293:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,475:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,698:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,785:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:24,897:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,030:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,189:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,373:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,451:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,557:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,691:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:25,850:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,032:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,106:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,208:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,337:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,491:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,667:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,741:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,843:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:26,969:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,122:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,298:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,373:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,475:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,600:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:27,753:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:35,411:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
+2023-03-24 19:05:35,672:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/ensemble/_forest.py:413: FutureWarning: `max_features='auto'` has been deprecated in 1.1 and will be removed in 1.3. To keep the past behaviour, explicitly set `max_features=1.0` or remove this parameter as it is also the default value for RandomForestRegressors and ExtraTreesRegressors.
+  warn(
+
