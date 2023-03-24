@@ -1,0 +1,1495 @@
+2023-03-24 08:35:38,781:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-24 08:35:38,831:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:35:38,831:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:35:38,831:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:35:38,831:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:35:38,836:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 08:35:38,836:WARNING:/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-24 08:35:38,836:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 08:35:39,092:INFO:Soft dependency imported: prophet: 1.1.2
+2023-03-24 08:35:39,201:WARNING:/usr/local/lib/python3.8/dist-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-24 08:36:18,923:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:60: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(dist.metadata["Version"])
+
+2023-03-24 08:36:18,957:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:36:18,957:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:36:18,957:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:36:18,957:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-03-24 08:36:18,959:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/colors.py:35: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 08:36:18,959:WARNING:/usr/local/lib/python3.8/dist-packages/setuptools/_distutils/version.py:346: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  other = LooseVersion(other)
+
+2023-03-24 08:36:18,960:WARNING:/usr/local/lib/python3.8/dist-packages/yellowbrick/style/rcmod.py:31: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  mpl_ge_150 = LooseVersion(mpl.__version__) >= "1.5.0"
+
+2023-03-24 08:36:19,116:INFO:Soft dependency imported: prophet: 1.1.2
+2023-03-24 08:36:19,204:WARNING:/usr/local/lib/python3.8/dist-packages/scikitplot/plotters.py:33: DeprecationWarning: This module was deprecated in version 0.3.0 and its functions are spread throughout different modules. Please check the documentation and update your function calls as soon as possible. This module will be removed in 0.4.0
+  warnings.warn("This module was deprecated in version 0.3.0 and its functions "
+
+2023-03-24 08:36:23,276:WARNING:/tmp/ipykernel_3750/578373218.py:2: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  test.drop(columns=['Year'], inplace=True)
+
+2023-03-24 08:36:23,354:INFO:PyCaret RegressionExperiment
+2023-03-24 08:36:23,354:INFO:Logging name: reg-default-name
+2023-03-24 08:36:23,354:INFO:ML Usecase: MLUsecase.REGRESSION
+2023-03-24 08:36:23,354:INFO:version 3.0.0
+2023-03-24 08:36:23,354:INFO:Initializing setup()
+2023-03-24 08:36:23,354:INFO:self.USI: 37df
+2023-03-24 08:36:23,354:INFO:self._variable_keys: {'fold_shuffle_param', 'fold_generator', 'y_test', '_available_plots', 'exp_name_log', 'exp_id', 'html_param', 'memory', 'gpu_n_jobs_param', 'log_plots_param', 'y_train', 'X_test', 'X', 'pipeline', 'seed', 'target_param', 'gpu_param', 'n_jobs_param', 'transform_target_param', 'X_train', 'USI', 'y', 'idx', 'fold_groups_param', 'logging_param', 'data', '_ml_usecase'}
+2023-03-24 08:36:23,354:INFO:Checking environment
+2023-03-24 08:36:23,354:INFO:python_version: 3.8.10
+2023-03-24 08:36:23,354:INFO:python_build: ('default', 'Jun 22 2022 20:18:18')
+2023-03-24 08:36:23,354:INFO:machine: x86_64
+2023-03-24 08:36:23,354:INFO:platform: Linux-5.19.0-35-generic-x86_64-with-glibc2.29
+2023-03-24 08:36:23,355:INFO:Memory: svmem(total=135016697856, available=127039217664, percent=5.9, used=6438735872, free=124676669440, active=1511321600, inactive=7139115008, buffers=321466368, cached=3579826176, shared=266395648, slab=1039511552)
+2023-03-24 08:36:23,355:INFO:Physical Core: 8
+2023-03-24 08:36:23,355:INFO:Logical Core: 16
+2023-03-24 08:36:23,355:INFO:Checking libraries
+2023-03-24 08:36:23,355:INFO:System:
+2023-03-24 08:36:23,355:INFO:    python: 3.8.10 (default, Jun 22 2022, 20:18:18)  [GCC 9.4.0]
+2023-03-24 08:36:23,356:INFO:executable: /usr/bin/python3
+2023-03-24 08:36:23,356:INFO:   machine: Linux-5.19.0-35-generic-x86_64-with-glibc2.29
+2023-03-24 08:36:23,356:INFO:PyCaret required dependencies:
+2023-03-24 08:36:23,356:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/utils/_dependencies.py:39: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  ver = LooseVersion(ver)
+
+2023-03-24 08:36:23,356:INFO:                 pip: 20.0.2
+2023-03-24 08:36:23,356:INFO:          setuptools: 45.2.0
+2023-03-24 08:36:23,356:INFO:             pycaret: 3.0.0
+2023-03-24 08:36:23,356:INFO:             IPython: 8.11.0
+2023-03-24 08:36:23,356:INFO:          ipywidgets: 8.0.5
+2023-03-24 08:36:23,356:INFO:                tqdm: 4.65.0
+2023-03-24 08:36:23,356:INFO:               numpy: 1.23.4
+2023-03-24 08:36:23,356:INFO:              pandas: 1.5.3
+2023-03-24 08:36:23,356:INFO:              jinja2: 3.1.2
+2023-03-24 08:36:23,356:INFO:               scipy: 1.10.1
+2023-03-24 08:36:23,356:INFO:              joblib: 1.2.0
+2023-03-24 08:36:23,356:INFO:             sklearn: 1.2.2
+2023-03-24 08:36:23,356:INFO:                pyod: 1.0.9
+2023-03-24 08:36:23,356:INFO:            imblearn: 0.10.1
+2023-03-24 08:36:23,356:INFO:   category_encoders: 2.6.0
+2023-03-24 08:36:23,356:INFO:            lightgbm: 3.3.5
+2023-03-24 08:36:23,356:INFO:               numba: 0.56.4
+2023-03-24 08:36:23,356:INFO:            requests: 2.28.2
+2023-03-24 08:36:23,356:INFO:          matplotlib: 3.7.1
+2023-03-24 08:36:23,356:INFO:          scikitplot: 0.3.7
+2023-03-24 08:36:23,356:INFO:         yellowbrick: 1.5
+2023-03-24 08:36:23,356:INFO:              plotly: 5.13.1
+2023-03-24 08:36:23,356:INFO:             kaleido: 0.2.1
+2023-03-24 08:36:23,356:INFO:         statsmodels: 0.13.5
+2023-03-24 08:36:23,356:INFO:              sktime: 0.16.1
+2023-03-24 08:36:23,356:INFO:               tbats: 1.1.2
+2023-03-24 08:36:23,356:INFO:            pmdarima: 2.0.3
+2023-03-24 08:36:23,356:INFO:              psutil: 5.9.4
+2023-03-24 08:36:23,356:INFO:PyCaret optional dependencies:
+2023-03-24 08:36:23,364:INFO:                shap: Not installed
+2023-03-24 08:36:23,364:INFO:           interpret: Not installed
+2023-03-24 08:36:23,364:INFO:                umap: Not installed
+2023-03-24 08:36:23,364:INFO:    pandas_profiling: Not installed
+2023-03-24 08:36:23,364:INFO:  explainerdashboard: Not installed
+2023-03-24 08:36:23,364:INFO:             autoviz: Not installed
+2023-03-24 08:36:23,364:INFO:           fairlearn: Not installed
+2023-03-24 08:36:23,364:INFO:             xgboost: Not installed
+2023-03-24 08:36:23,364:INFO:            catboost: Not installed
+2023-03-24 08:36:23,364:INFO:              kmodes: Not installed
+2023-03-24 08:36:23,364:INFO:             mlxtend: Not installed
+2023-03-24 08:36:23,364:INFO:       statsforecast: Not installed
+2023-03-24 08:36:23,364:INFO:        tune_sklearn: Not installed
+2023-03-24 08:36:23,364:INFO:                 ray: Not installed
+2023-03-24 08:36:23,364:INFO:            hyperopt: Not installed
+2023-03-24 08:36:23,364:INFO:              optuna: Not installed
+2023-03-24 08:36:23,364:INFO:               skopt: Not installed
+2023-03-24 08:36:23,364:INFO:              mlflow: Not installed
+2023-03-24 08:36:23,364:INFO:              gradio: Not installed
+2023-03-24 08:36:23,364:INFO:             fastapi: Not installed
+2023-03-24 08:36:23,364:INFO:             uvicorn: Not installed
+2023-03-24 08:36:23,364:INFO:              m2cgen: Not installed
+2023-03-24 08:36:23,364:INFO:           evidently: Not installed
+2023-03-24 08:36:23,364:INFO:               fugue: Not installed
+2023-03-24 08:36:23,364:INFO:           streamlit: Not installed
+2023-03-24 08:36:23,364:INFO:             prophet: 1.1.2
+2023-03-24 08:36:23,364:INFO:None
+2023-03-24 08:36:23,364:INFO:Set up data.
+2023-03-24 08:36:23,417:INFO:Set up train/test split.
+2023-03-24 08:36:23,418:INFO:Set up data.
+2023-03-24 08:36:23,468:INFO:Set up index.
+2023-03-24 08:36:23,468:INFO:Set up folding strategy.
+2023-03-24 08:36:23,468:INFO:Assigning column types.
+2023-03-24 08:36:23,479:INFO:Engine successfully changes for model 'lr' to 'sklearn'.
+2023-03-24 08:36:23,479:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,481:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,484:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,522:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,547:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,547:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,556:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,557:INFO:Engine for model 'lasso' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,559:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,562:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,600:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,627:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,627:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,627:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,628:INFO:Engine successfully changes for model 'lasso' to 'sklearn'.
+2023-03-24 08:36:23,630:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,633:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,671:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,698:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,698:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,698:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,701:INFO:Engine for model 'ridge' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,704:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,742:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,768:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,768:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,769:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,769:INFO:Engine successfully changes for model 'ridge' to 'sklearn'.
+2023-03-24 08:36:23,774:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,811:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,838:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,838:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,838:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,843:INFO:Engine for model 'en' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,880:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,906:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,907:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,907:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,907:INFO:Engine successfully changes for model 'en' to 'sklearn'.
+2023-03-24 08:36:23,950:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,976:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:23,976:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:23,977:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,020:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:24,046:INFO:Engine for model 'knn' has not been set explicitly, hence returning None.
+2023-03-24 08:36:24,047:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,047:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,047:INFO:Engine successfully changes for model 'knn' to 'sklearn'.
+2023-03-24 08:36:24,091:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:24,117:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,117:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,160:INFO:Engine for model 'svm' has not been set explicitly, hence returning None.
+2023-03-24 08:36:24,186:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,186:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,186:INFO:Engine successfully changes for model 'svm' to 'sklearn'.
+2023-03-24 08:36:24,256:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,256:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,325:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,325:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,326:INFO:Preparing preprocessing pipeline...
+2023-03-24 08:36:24,326:INFO:Set up simple imputation.
+2023-03-24 08:36:24,357:INFO:Finished creating preprocessing pipeline.
+2023-03-24 08:36:24,361:INFO:Pipeline: Pipeline(memory=FastMemory(location=/tmp/joblib),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['Madrid_wind_speed',
+                                             'Valencia_wind_deg',
+                                             'Bilbao_rain_1h',
+                                             'Valencia_wind_speed',
+                                             'Seville_humidity',
+                                             'Madrid_humidity',
+                                             'Bilbao_clouds_all',
+                                             'Bilbao_wind_speed',
+                                             'Seville_clouds_all',
+                                             'Bilbao_wind_deg',
+                                             'Barcelona_wind_speed',
+                                             'Barcelona_wind_deg',
+                                             'Madri...
+                                             'Seville_rain_3h',
+                                             'Madrid_rain_1h',
+                                             'Barcelona_rain_3h',
+                                             'Valencia_snow_3h',
+                                             'Madrid_weather_id',
+                                             'Barcelona_weather_id',
+                                             'Bilbao_pressure',
+                                             'Seville_weather_id',
+                                             'Valencia_pressure',
+                                             'Seville_temp_max',
+                                             'Madrid_pressure', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent')))])
+2023-03-24 08:36:24,361:INFO:Creating final display dataframe.
+2023-03-24 08:36:24,465:INFO:Setup _display_container:                     Description              Value
+0                    Session id                123
+1                        Target  load_shortfall_3h
+2                   Target type         Regression
+3           Original data shape        (8763, 331)
+4        Transformed data shape        (8763, 331)
+5   Transformed train set shape        (5843, 331)
+6    Transformed test set shape        (2920, 331)
+7              Numeric features                330
+8                    Preprocess               True
+9               Imputation type             simple
+10           Numeric imputation               mean
+11       Categorical imputation               mode
+12               Fold Generator              KFold
+13                  Fold Number                 10
+14                     CPU Jobs                 -1
+15                      Use GPU              False
+16               Log Experiment              False
+17              Experiment Name   reg-default-name
+18                          USI               37df
+2023-03-24 08:36:24,539:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,539:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,610:WARNING:
+'xgboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install xgboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,610:WARNING:
+'catboost' is a soft dependency and not included in the pycaret installation. Please run: `pip install catboost` to install.
+Alternately, you can install this by running `pip install pycaret[models]`
+2023-03-24 08:36:24,610:INFO:setup() successfully completed in 1.26s...............
+2023-03-24 08:36:24,737:INFO:Initializing compare_models()
+2023-03-24 08:36:24,737:INFO:compare_models(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, include=['et'], fold=None, round=4, cross_validation=True, sort=R2, n_select=3, budget_time=None, turbo=True, errors=ignore, fit_kwargs=None, groups=None, experiment_custom_tags=None, probability_threshold=None, verbose=True, parallel=None, caller_params={'self': <pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, 'include': ['et'], 'exclude': None, 'fold': None, 'round': 4, 'cross_validation': True, 'sort': 'R2', 'n_select': 3, 'budget_time': None, 'turbo': True, 'errors': 'ignore', 'fit_kwargs': None, 'groups': None, 'experiment_custom_tags': None, 'engine': None, 'verbose': True, 'parallel': None, '__class__': <class 'pycaret.regression.oop.RegressionExperiment'>}, exclude=None)
+2023-03-24 08:36:24,737:INFO:Checking exceptions
+2023-03-24 08:36:24,741:INFO:Preparing display monitor
+2023-03-24 08:36:24,753:INFO:Initializing Extra Trees Regressor
+2023-03-24 08:36:24,753:INFO:Total runtime is 1.8914540608723959e-06 minutes
+2023-03-24 08:36:24,755:INFO:SubProcess create_model() called ==================================
+2023-03-24 08:36:24,755:INFO:Initializing create_model()
+2023-03-24 08:36:24,755:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, estimator=et, fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=False, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=<pycaret.internal.display.display.CommonDisplay object at 0x7f61cc9c1a00>, model_only=True, return_train_score=False, kwargs={})
+2023-03-24 08:36:24,755:INFO:Checking exceptions
+2023-03-24 08:36:24,755:INFO:Importing libraries
+2023-03-24 08:36:24,755:INFO:Copying training dataset
+2023-03-24 08:36:24,765:INFO:Defining folds
+2023-03-24 08:36:24,765:INFO:Declaring metric variables
+2023-03-24 08:36:24,767:INFO:Importing untrained model
+2023-03-24 08:36:24,770:INFO:Extra Trees Regressor Imported successfully
+2023-03-24 08:36:24,773:INFO:Starting cross validation
+2023-03-24 08:36:24,776:INFO:Cross validating with KFold(n_splits=10, random_state=None, shuffle=False), n_jobs=-1
+2023-03-24 08:36:24,786:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,806:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,813:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,818:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,825:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,830:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,836:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,851:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,857:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,860:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,867:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,876:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,883:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,897:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,901:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,920:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:24,920:WARNING:/usr/local/lib/python3.8/dist-packages/joblib/externals/loky/backend/fork_exec.py:37: ResourceWarning: Unclosed socket <zmq.Socket(zmq.PUSH) at 0x7f62502aa040>
+  pid = os.fork()
+
+2023-03-24 08:36:27,156:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/internal/pipeline.py:238: UserWarning: Persisting input arguments took 0.63s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  X, y = self._memory_transform(
+
+2023-03-24 08:36:40,676:WARNING:/usr/local/lib/python3.8/dist-packages/pycaret/internal/pipeline.py:260: UserWarning: Persisting input arguments took 0.87s to run.
+If this happens often in your code, it can cause performance problems 
+(results will be correct in all cases). 
+The reason for this is probably some large input arguments for a wrapped
+ function (e.g. large strings).
+THIS IS A JOBLIB ISSUE. If you can, kindly provide the joblib's team with an
+ example so that they can fix the problem.
+  fitted_estimator = self._memory_fit(
+
+2023-03-24 08:36:41,870:INFO:Calculating mean and std
+2023-03-24 08:36:41,871:INFO:Creating metrics dataframe
+2023-03-24 08:36:41,875:INFO:Uploading results into container
+2023-03-24 08:36:41,875:INFO:Uploading model into container now
+2023-03-24 08:36:41,876:INFO:_master_model_container: 1
+2023-03-24 08:36:41,876:INFO:_display_container: 2
+2023-03-24 08:36:41,876:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 08:36:41,876:INFO:create_model() successfully completed......................................
+2023-03-24 08:36:41,968:INFO:SubProcess create_model() end ==================================
+2023-03-24 08:36:41,968:INFO:Creating metrics dataframe
+2023-03-24 08:36:41,979:INFO:Initializing create_model()
+2023-03-24 08:36:41,979:INFO:create_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, estimator=ExtraTreesRegressor(n_jobs=-1, random_state=123), fold=KFold(n_splits=10, random_state=None, shuffle=False), round=4, cross_validation=False, predict=False, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=True, metrics=None, display=None, model_only=True, return_train_score=False, kwargs={})
+2023-03-24 08:36:41,979:INFO:Checking exceptions
+2023-03-24 08:36:41,980:INFO:Importing libraries
+2023-03-24 08:36:41,980:INFO:Copying training dataset
+2023-03-24 08:36:41,990:INFO:Defining folds
+2023-03-24 08:36:41,990:INFO:Declaring metric variables
+2023-03-24 08:36:41,990:INFO:Importing untrained model
+2023-03-24 08:36:41,990:INFO:Declaring custom model
+2023-03-24 08:36:41,991:INFO:Extra Trees Regressor Imported successfully
+2023-03-24 08:36:41,992:INFO:Cross validation set to False
+2023-03-24 08:36:41,992:INFO:Fitting Model
+2023-03-24 08:36:43,866:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 08:36:43,866:INFO:create_model() successfully completed......................................
+2023-03-24 08:36:43,944:INFO:_master_model_container: 1
+2023-03-24 08:36:43,945:INFO:_display_container: 2
+2023-03-24 08:36:43,945:INFO:ExtraTreesRegressor(n_jobs=-1, random_state=123)
+2023-03-24 08:36:43,945:INFO:compare_models() successfully completed......................................
+2023-03-24 08:36:44,108:INFO:Initializing plot_model()
+2023-03-24 08:36:44,108:INFO:plot_model(plot=feature, fold=None, use_train_data=False, verbose=True, display=None, display_format=None, estimator=ExtraTreeRegressor(random_state=914636141), feature_name=None, fit_kwargs=None, groups=None, label=False, plot_kwargs=None, save=False, scale=1, self=<pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, system=True)
+2023-03-24 08:36:44,109:INFO:Checking exceptions
+2023-03-24 08:36:44,113:INFO:Preloading libraries
+2023-03-24 08:36:44,114:INFO:Copying training dataset
+2023-03-24 08:36:44,114:INFO:Plot type: feature
+2023-03-24 08:36:44,114:WARNING:No coef_ found. Trying feature_importances_
+2023-03-24 08:36:44,159:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,159:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,159:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,160:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,160:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,161:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,161:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,161:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,162:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,162:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,162:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,164:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,164:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,164:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,164:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,172:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,172:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,172:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,173:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,173:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,173:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,174:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,174:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,179:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,219:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,219:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,220:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,221:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,221:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,222:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,222:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,223:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,223:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,224:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,224:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,226:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,226:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,227:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,227:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,229:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,229:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,229:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,230:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,230:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,230:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,231:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,231:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,232:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,233:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,234:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,235:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,235:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,236:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,236:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,237:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,239:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,239:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,241:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,241:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,242:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,243:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,243:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,244:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,244:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,245:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,245:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,246:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,247:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,248:WARNING:findfont: Generic family 'sans-serif' not found because none of the following families were found: Arial, Liberation Sans, Bitstream Vera Sans, sans-serif
+2023-03-24 08:36:44,263:INFO:Visual Rendered Successfully
+2023-03-24 08:36:44,336:INFO:plot_model() successfully completed......................................
+2023-03-24 08:36:44,557:INFO:Initializing predict_model()
+2023-03-24 08:36:44,557:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x7f61cc9d1430>, estimator=ExtraTreeRegressor(random_state=914636141), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, replace_labels_in_column=<function _SupervisedExperiment.predict_model.<locals>.replace_labels_in_column at 0x7f61cc999670>)
+2023-03-24 08:36:44,557:INFO:Checking exceptions
+2023-03-24 08:36:44,557:INFO:Preloading libraries
+2023-03-24 08:36:44,558:INFO:Set up data.
+2023-03-24 08:36:44,616:INFO:Set up index.
+2023-03-24 08:36:44,641:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/base.py:432: UserWarning: X has feature names, but ExtraTreeRegressor was fitted without feature names
+  warnings.warn(
+
+2023-03-24 08:37:57,516:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:38:15,404:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:38:33,107:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:38:50,742:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:39:08,685:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:39:26,496:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:39:44,385:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:40:02,501:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:40:20,586:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:40:38,564:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:40:56,420:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:41:14,302:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:41:31,962:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:41:49,270:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:42:06,229:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:42:23,189:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:42:40,092:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:42:57,010:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:43:14,040:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:43:31,019:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:43:48,264:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:44:05,284:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:44:21,939:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:44:38,573:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:44:55,175:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:45:11,766:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:45:28,355:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:45:44,873:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:46:01,430:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:46:18,360:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:46:35,145:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:46:51,882:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:47:08,556:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:47:25,164:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:47:41,785:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:47:58,381:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:48:15,012:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:48:31,863:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:48:48,499:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:49:05,180:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:49:21,728:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:49:38,407:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:49:55,322:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:50:12,355:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:50:29,004:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:50:45,341:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:51:01,434:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:51:17,380:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:51:33,288:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:51:49,111:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:52:05,105:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:52:21,252:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:52:37,249:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:52:52,820:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:53:08,276:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:53:23,693:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:53:39,044:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:53:54,327:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:54:09,546:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:54:24,773:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:54:39,922:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:54:55,051:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:55:10,111:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:55:25,315:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:55:40,305:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:55:55,231:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:56:10,231:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:56:25,044:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:56:39,765:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:56:54,604:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:57:09,427:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:57:24,497:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:57:39,097:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:57:53,935:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:58:08,845:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:58:23,684:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:58:38,285:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:58:52,853:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:59:07,376:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:59:21,775:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:59:36,197:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 08:59:50,591:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:00:04,859:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:00:19,105:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:00:33,089:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:00:46,976:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:01:00,811:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:01:14,809:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:01:28,592:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:01:42,395:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:01:56,230:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:02:09,977:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:02:23,696:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:02:37,615:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:02:51,307:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:03:04,900:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:03:18,464:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:03:32,159:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:03:45,855:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:03:59,221:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:04:12,493:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:04:25,715:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:04:38,896:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:04:52,084:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:05:05,377:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:05:18,291:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:05:30,878:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:05:44,613:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:05:57,782:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:06:10,859:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:06:23,795:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:06:36,244:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:06:48,529:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:07:00,966:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:07:13,557:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:07:26,211:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:07:38,537:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:07:50,788:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:08:03,207:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:08:15,475:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:08:27,786:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:08:39,993:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:08:52,087:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:09:04,122:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:09:16,212:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:09:28,002:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:09:39,766:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:09:51,369:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:10:02,973:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:10:14,530:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:10:25,974:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:10:37,617:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:10:49,078:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:00,489:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:11,848:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:23,227:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:34,433:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:45,730:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:11:56,917:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:12:07,954:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:12:18,912:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:12:29,736:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:12:40,528:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:12:51,102:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:01,708:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:12,353:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:22,975:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:33,616:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:44,428:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:13:55,131:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:05,850:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:16,590:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:27,196:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:37,524:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:47,820:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:14:58,178:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:08,378:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:18,491:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:28,785:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:39,019:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:49,168:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:15:59,477:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:09,600:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:19,651:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:29,607:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:39,493:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:49,328:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:16:58,937:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:08,492:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:17,996:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:27,427:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:36,791:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:46,270:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:17:55,907:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:04,974:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:13,894:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:22,916:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:31,890:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:40,905:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:49,814:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:18:58,661:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:07,439:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:15,987:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:24,408:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:33,082:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:41,929:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:50,430:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:19:58,902:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:07,562:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:15,977:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:24,476:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:33,035:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:41,268:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:49,732:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:20:57,825:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:05,769:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:13,666:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:21,507:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:29,282:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:36,941:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:44,555:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:52,123:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:21:59,611:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:07,042:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:14,432:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:21,758:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:29,013:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:36,220:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:43,386:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:50,530:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:22:57,577:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:04,636:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:11,645:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:18,603:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:25,512:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:32,355:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:39,139:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:45,862:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:52,521:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:23:59,110:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:05,636:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:12,095:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:18,509:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:24,857:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:31,156:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:37,401:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:43,586:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:49,722:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:24:55,811:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:01,831:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:07,803:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:13,710:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:19,557:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:25,357:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:31,074:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:36,737:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:42,335:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:47,860:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:53,329:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:25:58,734:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:04,101:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:09,418:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:14,674:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:19,859:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:24,987:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:30,057:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:35,073:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:40,024:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:44,916:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:49,757:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:54,532:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:26:59,255:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:03,935:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:08,537:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:13,145:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:17,719:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:22,301:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:26,843:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:31,247:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:35,637:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:40,032:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:44,223:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:48,342:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:52,429:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:27:56,420:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:00,315:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:04,176:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:07,957:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:11,767:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:15,521:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:19,234:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:22,878:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:26,406:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:29,888:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:33,289:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:36,616:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:39,884:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:43,095:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:46,273:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:49,429:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:52,476:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:55,585:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:28:58,556:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:01,498:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:04,344:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:07,137:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:09,890:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:12,595:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:15,259:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:17,905:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:20,481:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:22,968:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:25,406:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:27,783:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:30,135:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:32,394:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:34,645:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:36,753:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:38,784:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:40,756:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:42,684:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:44,572:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:46,412:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:48,190:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:49,893:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:51,531:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:53,123:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:54,642:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:56,078:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:57,444:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:29:58,812:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:00,093:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:01,319:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:02,493:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:03,585:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:04,609:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:05,576:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:06,519:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:07,403:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:08,291:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:09,145:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:09,919:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:10,629:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:11,279:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:11,864:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:299: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  estimator.fit(X[:, features], y, **fit_params)
+
+2023-03-24 09:30:12,388:WARNING:/usr/local/lib/python3.8/dist-packages/sklearn/feature_selection/_rfe.py:326: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
+  self.estimator_.fit(X[:, features], y, **fit_params)
+
