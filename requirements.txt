@@ -1,2 +1,4 @@
 missingno==0.5.2
 pycaret==3.0.0
+
+prophet==1.1.2
